@@ -1,0 +1,32 @@
+{
+  "name": "apihandling",
+  "version": "1.0.0",
+  "description": "This project is used to work with handling api in the React project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "webpack serve --mode development --open"
+  },
+  "author": "karan attri",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "generate-unique-id": "^2.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.2.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
